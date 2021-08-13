@@ -10,7 +10,6 @@ body, html {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #FF719A;
 }
 
     .load > div {
