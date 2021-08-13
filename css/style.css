@@ -1,0 +1,46 @@
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+.load {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF719A;
+}
+
+    .load > div {
+        align-items: center;
+    }
+
+    .load img {
+        width: 80%;
+        height: 80%;
+        animation: jump .5s ease-in infinite;
+    }
+
+    .load .anh {
+        text-align: center;
+    }
+
+    .load h1 {
+        font-family: Helvetica, sans-serif;
+        font-size: 40px;
+        color: white;
+        text-align: center;
+        animation: jump .5s ease-in infinite;
+    }
+
+
+@keyframes jump {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
