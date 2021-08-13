@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\css"
+    "\\css",
+    "\\js"
   ],
+  "SelectedNode": "\\js\\show_ads.js",
   "PreviewInSolutionExplorer": false
 }
